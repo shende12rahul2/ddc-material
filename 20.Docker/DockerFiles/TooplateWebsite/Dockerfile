@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:24.04
 LABEL "Project"="LilFasion"
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update
